@@ -1,9 +1,9 @@
-import '../App.scss';
+import '../../App.scss';
 
-import ServicesContent from './ServicesContent';
+import ServicesContent from '../ServicesContent';
 
-import imagePhotography from '../images/desktop/image-photography.jpg';
-import imageGraphicDesign from '../images/desktop/image-graphic-design.jpg';
+import imagePhotography from '../../images/desktop/image-photography.jpg';
+import imageGraphicDesign from '../../images/desktop/image-graphic-design.jpg';
 
 export default function Services() {
     return (

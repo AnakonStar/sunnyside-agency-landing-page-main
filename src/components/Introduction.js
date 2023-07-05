@@ -9,14 +9,14 @@ export default function Introduction() {
     return (
         <section className='introduction'>
             <Header />
-            <div>
+            <>
                 <span>We are creatives</span>
-                <ArrowDown />
+                <ArrowDown className='arrow'/>
                 <picture>
                     <source media="(max-width:375px)" srcset={headerImageMob} />
                     <img src={headerImage} alt="logo" />
                 </picture>
-            </div>
+            </>
         </section>
     );
 }

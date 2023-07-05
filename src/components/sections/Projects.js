@@ -1,10 +1,10 @@
-import '../App.scss';
+import '../../App.scss';
 
-import ProjectsContent from './ProjectsContent';
+import ProjectsContent from '../ProjectsContent';
 
-import photoEmilly from '../images/image-emily.jpg';
-import photoJennie from '../images/image-jennie.jpg';
-import photoThomas from '../images/image-thomas.jpg';
+import photoEmilly from '../../images/image-emily.jpg';
+import photoJennie from '../../images/image-jennie.jpg';
+import photoThomas from '../../images/image-thomas.jpg';
 
 export default function Projects() {
     return (
